@@ -1,0 +1,28 @@
+.contenido {
+    display: flex;
+    flex-direction: row;
+}
+
+.compras {
+    width: 60%;
+    height: 100%;
+}
+
+/* .productos {
+    width: 60%;
+    height: 100%;
+    margin-left: 50px;
+} */
+.productos {
+    width: 40%;
+    /*height: 100%;*/
+    margin-left: 50px;
+    overflow-y: scroll;
+    max-height: 100vh;
+}
+/* .productos {
+    width: 40%;
+    height: 50px;
+    overflow-y: scroll;
+    margin-left: 100%;
+} */
